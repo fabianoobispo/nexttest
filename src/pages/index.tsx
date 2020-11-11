@@ -1,5 +1,12 @@
+import { Title } from '../styles/pages/home';
+
+
 function Home() {
-    return <div> aaa</div>
+    return (
+    <div>
+        <Title>aaa</Title>
+    </div>
+    )
 }
 
 export default Home;
