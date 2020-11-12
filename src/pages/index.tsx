@@ -14,8 +14,7 @@ export default function Home() {
       axios.post('/api/gerarCPF', {estado})
       .then(response => {
           console.log(response.data);
-
-
+          setCpfgerado(response.data.cpf);
       });
         
 
@@ -25,7 +24,7 @@ export default function Home() {
     return (
     <Flex>
         <Title>Gerar CPF</Title>
-        <input type="text"></input>
+        <input type="text" value={cpfgerado} onChange={e =>setCpfgerado(e.target.value)} disabled />
 
         <select name="stado" id="stado" value={estado} onChange={e =>setEstado(e.target.value)}>
             <option value="AC">Acre</option>
