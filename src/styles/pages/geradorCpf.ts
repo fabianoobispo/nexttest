@@ -15,13 +15,17 @@ export const Flex = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     
-    margin-top: 50px;
+    margin-top: 5vw;
 
     position: relative;
 
-    margin-left: 40%;
+  
 
-    width:25%;
+    width: 20vw; 
+    margin-left: 40vw;
+    margin-right: -40vw;
+
+
     background-color:gray;
 
     input {
