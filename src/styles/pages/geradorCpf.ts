@@ -50,6 +50,11 @@ export const Flex = styled.div`
         margin-left: -90%;
     }
 
+
+    @media(max-width: 800px) {
+        width: 400px; 
+    }
+
     
 
 `

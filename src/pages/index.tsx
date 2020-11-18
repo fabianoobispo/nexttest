@@ -25,7 +25,14 @@ export default function Home() {
     <Container>
         <h1>Minha landing page</h1>
 
-        <p>um texto aqui</p>
+        <p>falar de uma softskill que no meu caso pode ser a vontade de aprender coisas novas e 
+            talves ser curioso no quesito de como as coisas funcionam  e porque 
+            na paginade gerar cpf tenho que colocar uma explicacao de como e regado o 
+            numero do cpf  e como se descobre os dois digitos, que sao um calculo muioto loco 
+            e o ultimo numero antes dos digitos representam o estado de onde o cpf foi gerado de
+            e se posivel um historico de cpf gerado que vai salvar no localstorage do navegador para
+            
+        </p>
       
     </Container>
     )
