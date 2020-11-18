@@ -1,6 +1,7 @@
 import {  Container } from '../styles/pages/home';
 import {useState } from 'react';
 import axios from 'axios';
+import magicaGif from '../assets/magic.gif';
 
 
 export default function Home() {
@@ -23,8 +24,19 @@ export default function Home() {
 
     return (
     <Container>
-        <h1>Minha landing page</h1>
-
+        <h1>O que são soft skills?</h1>
+        <p>
+            As soft skills são um conjunto de habilidades e competências relacionadas ao comportamento humano.
+            <br></br>
+            O melhor exemplo de soft skill talvez seja a inteligência emocional, que é a capacidade de lidar bem com as próprias emoções e usar essa energia a seu favor, sem impulsividade ou arrependimento posterior.
+        </p>
+        
+        <p>
+        Mas na área de desenvolvimento outras soft skills são mais importantes, em alguns casos indisponível, uma elas são comunicar-se bem, lidar com opiniões divergentes, manter o foco, conseguir se organizar.
+        <br></br>
+        E não, não se aprende de um dia para o outro.
+        </p>
+        <img src={magicaGif} alt="magicaGif" />
         <p>falar de uma softskill que no meu caso pode ser a vontade de aprender coisas novas e 
             talves ser curioso no quesito de como as coisas funcionam  e porque 
             na paginade gerar cpf tenho que colocar uma explicacao de como e regado o 
