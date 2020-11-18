@@ -1,20 +1,28 @@
 import styled from 'styled-components';
 
-export const Title = styled.p`
-    color: #fff;
-    margin-bottom: 12px;
-`;
+export const Container = styled.div`
+    width: 80vw;
 
 
-export const Flex = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+ 
+    margin-left: 10vw;
+    margin-right: -10vw;
+    border-radius: 5px;
+    
+    background-color:#e2f1f8;
 
-    margin-top: 50px;
 
+    margin-top: 10px;
+   
     
 
-`
+
+
+
+    h1 {
+        padding-top:1vw;
+        margin-left: 2vw;
+    }
+
+`;
+
