@@ -32,11 +32,17 @@ export default function Home() {
         </p>
         
         <p>
-        Mas na área de desenvolvimento outras soft skills são mais importantes, em alguns casos indisponível, uma elas são comunicar-se bem, lidar com opiniões divergentes, manter o foco, conseguir se organizar.
+        Mas na área de desenvolvimento outras soft skills são mais importantes, em alguns casos indispensavel, que são comunicar-se bem, lidar com opiniões divergentes, manter o foco e conseguir se organizar.
         <br></br>
         E não, não se aprende de um dia para o outro.
         </p>
         <img src={magicaGif} alt="magicaGif" />
+
+        <p>
+        Saber se expressar bem é expor suas ideias de forma clara e objetiva sem rodeios e erros. até mesmo pra pedir ajuda em um determinado assunto, já que ninguém sabe tudo.
+        As vezes ao reformular sua pergunta você encontra a sua resposta.
+
+        </p>
         <p>falar de uma softskill que no meu caso pode ser a vontade de aprender coisas novas e 
             talves ser curioso no quesito de como as coisas funcionam  e porque 
             na paginade gerar cpf tenho que colocar uma explicacao de como e regado o 
