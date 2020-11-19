@@ -1,4 +1,4 @@
-import { Title, Flex } from '../../styles/pages/geradorCpf';
+import { Title, Flex, Container } from '../../styles/pages/geradorCpf';
 import {useState } from 'react';
 import axios from 'axios';
 
@@ -22,6 +22,7 @@ export default function Home() {
 
 
     return (
+        <>
     <Flex>
         <a href='../'>voltar</a>
         <Title>Gerar CPF</Title>
@@ -59,6 +60,18 @@ export default function Home() {
         <button onClick={handleClick}>Gerar</button>
     </Flex>
 
+    <Container>
+            <p>
+            na paginade gerar cpf tenho que colocar uma explicacao de como e regado o 
+            numero do cpf  e como se descobre os dois digitos, que sao um calculo muioto loco 
+            e o ultimo numero antes dos digitos representam o estado de onde o cpf foi gerado de
+            e se posivel um historico de cpf gerado que vai salvar no localstorage do navegador para
+            
+        </p>
+        </Container>
+
+      
+</>
 
     )
 }

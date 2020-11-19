@@ -41,16 +41,12 @@ export default function Home() {
         <p>
         Saber se expressar bem é expor suas ideias de forma clara e objetiva sem rodeios e erros. até mesmo pra pedir ajuda em um determinado assunto, já que ninguém sabe tudo.
         As vezes ao reformular sua pergunta você encontra a sua resposta.
+        </p>
 
+        <p>
+        Outra soft skill que considero inportate a saber escutar, temos dois ouvidos e uma boca, entao faça proporcional, escute mais e fala o necesario.
         </p>
-        <p>falar de uma softskill que no meu caso pode ser a vontade de aprender coisas novas e 
-            talves ser curioso no quesito de como as coisas funcionam  e porque 
-            na paginade gerar cpf tenho que colocar uma explicacao de como e regado o 
-            numero do cpf  e como se descobre os dois digitos, que sao um calculo muioto loco 
-            e o ultimo numero antes dos digitos representam o estado de onde o cpf foi gerado de
-            e se posivel um historico de cpf gerado que vai salvar no localstorage do navegador para
-            
-        </p>
+        
       
     </Container>
     )
