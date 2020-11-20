@@ -62,10 +62,7 @@ export default function Home() {
 
     <Container>
             <p>
-            na paginade gerar cpf tenho que colocar uma explicacao de como e regado o 
-            numero do cpf  e como se descobre os dois digitos, que sao um calculo muioto loco 
-            e o ultimo numero antes dos digitos representam o estado de onde o cpf foi gerado de
-            e se posivel um historico de cpf gerado que vai salvar no localstorage do navegador para
+            Adicionar a explicacao de como chegar em um numero de cpf com digitos validos
             
         </p>
         </Container>
