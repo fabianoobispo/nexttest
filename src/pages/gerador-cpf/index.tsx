@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Title, Flex, Container } from '../../styles/pages/geradorCpf';
 import {useState } from 'react';
 import axios from 'axios';
@@ -24,7 +25,7 @@ export default function Home() {
     return (
         <>
     <Flex>
-        <a href='../'>voltar</a>
+        
         <Title>Gerar CPF</Title>
         <input type="text" value={cpfgerado} onChange={e =>setCpfgerado(e.target.value)} disabled />
 
@@ -66,6 +67,9 @@ export default function Home() {
             
         </p>
         </Container>
+        <Link href="/">
+            <a>Voltar</a>
+        </Link> 
 
       
 </>

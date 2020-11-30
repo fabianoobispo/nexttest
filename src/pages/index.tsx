@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import {  Container } from '../styles/pages/home';
 import {useState } from 'react';
 import axios from 'axios';
@@ -46,7 +47,9 @@ export default function Home() {
         <p>
         Outra soft skill que considero inportate a saber escutar, temos dois ouvidos e uma boca, entao faça proporcional, escute mais e fala o necesario.
         </p>
-        
+        <Link href="/gerador-cpf">
+            <a>Gerador-cpf</a>
+        </Link>        
       
     </Container>
     )
