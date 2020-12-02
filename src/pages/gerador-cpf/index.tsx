@@ -4,7 +4,7 @@ import {useState } from 'react';
 import axios from 'axios';
 
 
-export default function Home() {
+export default function GeradorCpf() {
     const [estado, setEstado ] = useState('');
     const [cpfgerado, setCpfgerado] = useState('');
     

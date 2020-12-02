@@ -1,19 +1,12 @@
 import Link from 'next/link';
-import { Title, Flex, Container } from '../../styles/pages/geradorCpf';
-import {useState, useEffect } from 'react';
+import { Title, Flex } from '../../styles/pages/geradorCpf';
+import {useState } from 'react';
 
 
 import api from '../api/ApiStarWars';
 
-export default function Home() {
-    const [planets, setPlanets] = useState({});
-    const [cpfgerado, setCpfgerado] = useState('');
-
-
-    useEffect(() => {
-        loadPlanets();
-      }, []);
-
+export default function StarWars() {
+ /* 
 
         const loadPlanets = async () => {
         const response = await api.get("planets").catch((error) => {
@@ -28,10 +21,9 @@ export default function Home() {
     
           return;
         });
-        console.log(response.data);
-        setPlanets(response.data);
+     
       
-      }
+      } */
 
 
     return (
@@ -39,10 +31,10 @@ export default function Home() {
     <Flex>
         
         <Title>Selecione um planeta </Title>
-        <input type="text" value={cpfgerado} />
+        <input type="text" value="teste"/>
 
       
-        <button onClick={handleClick}>Gerar</button>
+     
     </Flex>
 
         <Link href="/">
