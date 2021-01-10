@@ -11,7 +11,12 @@ export default function Home() {
        
         <Link href="/gerador-cpf">
             <a>Gerador-cpf</a>
+        </Link> 
+        <br/>
+        <Link href="/starwars">
+            <a>starwars-api</a>
         </Link>        
+             
       
     </Container>
     )

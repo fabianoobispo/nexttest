@@ -8,6 +8,14 @@ margin-top:5%;
 
 
 export const Flex = styled.div`
+    width: 80vw; 
+
+    margin-left: 10vw;
+    margin-right: -10vw;
+    border-radius: 5px;
+
+
+
     background-color:#808e95;
     display: flex;
     flex-direction: column;
@@ -15,32 +23,30 @@ export const Flex = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     
-    margin-top: 5vw;
+    margin-top: 10px;
 
     position: relative;
 
   
 
-    width: 20vw; 
-    margin-left: 40vw;
-    margin-right: -40vw;
-
+  
 
     background-color:gray;
 
     input {
         margin-bottom: 10px;
-        width: 30%;
+        width: 300px;
+        text-align: center;
     }
 
     select{
-        width: 30%;
+        width: 300px;
+        
     }
 
     button {
          margin-top: 10px;
-         width: 30%;
-
+         width: 300px;
          margin-bottom: 5%;
     }
     a {
@@ -49,10 +55,27 @@ export const Flex = styled.div`
         color: #fff;
         margin-left: -90%;
     }
-
+  
 
     @media(max-width: 800px) {
-        width: 400px; 
+        width: 80vw;
+
+        input {
+            margin-bottom: 10px;
+            width: 40vw;
+        }
+
+        select{
+            width: 40vw;
+        }
+        button {
+         margin-top: 10px;
+         width: 40vw;
+
+         margin-bottom: 5%;
+        }
+
+        
     }
 
     
@@ -62,10 +85,7 @@ export const Flex = styled.div`
 
 
 export const Container = styled.div`
-    width: 80vw;
-
-
- 
+    width: 80vw; 
     margin-left: 10vw;
     margin-right: -10vw;
     border-radius: 5px;
@@ -79,17 +99,10 @@ export const Container = styled.div`
 
 
 
-    h1 {
-        padding-top:1vw;
-        margin-left: 2vw;
-        font-size:30px;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 2px;
 
-    }
+    p{  
+        padding-top:1vw; 
 
-    p{
-        margin-top: 10px;
         margin-left: 15px;
 
         margin-right: 15px;
@@ -109,11 +122,16 @@ export const Container = styled.div`
     }
 
 
+    a{
+       text-decoration: none;
+       margin-left: 15px;
 
+    }
 
     
-    @media(max-width: 640px) {
-        width: 300px; 
+    @media(max-width: 800px) {
+        width: 80vw;
+        
     }
 `;
 

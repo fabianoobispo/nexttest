@@ -2,7 +2,7 @@ import {NowRequest, NowResponse} from '@vercel/node'
 
 export default (request: NowRequest, response: NowResponse) => {
     const { estado } = request.body;
-    console.log(estado);
+ 
     var cpf = [];
     cpf[0] = Math.floor(Math.random() * 10); 
     cpf[1] = Math.floor(Math.random() * 10); 

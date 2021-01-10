@@ -63,13 +63,15 @@ export default function GeradorCpf() {
 
     <Container>
             <p>
-            Adicionar a explicacao de como chegar em um numero de cpf com digitos validos
-            
-        </p>
+                Adicionar a explicacao de como chegar em um numero de cpf com digitos validos
+            </p>
+            <br/>
+
+            <Link href="/">
+                <a>Voltar</a>
+            </Link> 
         </Container>
-        <Link href="/">
-            <a>Voltar</a>
-        </Link> 
+    
 
       
 </>
